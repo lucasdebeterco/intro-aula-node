@@ -24,4 +24,9 @@ document.querySelector('.form').addEventListener('submit', function (e) {
     tr.appendChild(tdVolume);
 
     tbody.appendChild(tr);
+
+    campos[0].value = '';
+    campos[1].value = 1;
+    campos[2].value = 0;
+    campos[0].focus();
 })

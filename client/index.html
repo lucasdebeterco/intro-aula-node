@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
+
+    <script src="domain/negociacao/Negociacao.js"></script>
+
+    <script>
+        var n1 = new Negociacao(new Date, 10, 3.0);
+        var volume = n1.volume();
+
+        console.log(n1.volume)
+        console.log(n1.data)
+        console.log(n1.quantidade)
+        console.log(n1.valor)
+    </script>
 </body>
-</html>
+</html> 
